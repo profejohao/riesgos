@@ -1,0 +1,388 @@
+
+
+
+@media(min-width:799px){
+    #mayor{
+        
+       display:grid;
+       grid-template-columns: 50% 50%;
+       grid-template-rows: auto auto;
+        gap: 50px; 
+        align-items: center;
+        margin-top: 70px;
+       
+        
+       
+    }
+    
+    #targeta1{
+        border-color: blue;
+        border-style: solid;
+        border-radius: 10px; 
+        width: 510px;
+        align-items: center;
+        border-width: 7px;
+        background-color: white;
+        margin-left: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        
+        
+
+    }
+    #solucion1{
+        border-style: solid;
+        border-color: blue;
+        border-radius: 10px;
+        align-items: center;
+        margin-left: 100px;
+        width: 510px;
+        border-width: 7px;
+        background-color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        
+        
+    }
+#imagen1{
+    width: 95%;
+    height: 50%;
+    
+    
+}
+
+#imagen2{
+    width: 95%;
+    height: 50%;
+    
+    
+}
+
+#imagen3{
+    width: 95%;
+    height: 50%;
+    
+}
+#imagen4{
+    width: 45%;
+    height: 100%;
+    
+    
+}
+#imagen5{
+    width: 95%;
+    height: 50%;
+    
+    
+}
+#imagen6{
+    width: 95%;
+    height: 50%;
+    
+   
+}
+#imagen7{
+    width: 95%;
+    height: 50%;
+    
+    
+}
+#imagen8{
+    width: 95%;
+    height: 50%;
+    
+   
+}
+
+img{
+    width: 95%;
+    height: 50%;
+    margin-left: 13px;
+   
+}
+
+#targeta2{
+
+    border-color: rgb(255, 238, 0);
+    border-style: solid;
+    border-radius: 10px; 
+    width: 510px;
+    align-items: center;
+    border-width: 7px;
+    background-color: white;
+    margin-left: 200px;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+}
+#solucion2{
+
+border-style: solid;
+border-color: rgb(255, 238, 0);
+border-radius: 10px;
+align-items: center;
+margin-left: 100px;
+width: 510px;
+border-width: 7px;
+background-color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#targeta3{
+
+border-color: rgb(140, 0, 255);
+border-style: solid;
+border-radius: 10px; 
+width: 510px;
+align-items: center;
+border-width: 7px;
+background-color: white;
+margin-left: 200px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#solucion3{
+
+border-style: solid;
+border-color: rgb(140, 0, 255);
+border-radius: 10px;
+align-items: center;
+margin-left: 100px;
+width: 510px;
+border-width: 7px;
+background-color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#targeta4{
+
+border-color: rgb(255, 0, 0);
+border-style:solid;
+border-radius: 10px; 
+width: 510px;
+border-width: 7px;
+align-items: center;
+background-color: white;
+margin-left: 200px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#solucion4{
+
+border-style: solid;
+border-color: rgb(255, 0, 0);
+border-radius: 10px;
+align-items: center;
+margin-left: 100px;
+width: 510px;
+border-width: 7px;
+background-color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#body{
+   background-color:blanchedalmond;
+  
+}
+
+}
+
+
+
+@media(max-width:799px) 
+{
+    
+    #mayor{
+        
+        display:grid;
+grid-template-columns: 100%;
+grid-template-rows: auto;
+         gap: 50px; 
+         margin-top: 70px;
+align-items: center;
+align-content: center;
+         
+        
+     }
+     
+     #targeta1{
+         border-color: blue;
+         border-style: solid;
+         border-radius: 10px; 
+         
+         align-items: center;
+         border-width: 7px;
+         background-color: white;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         margin-left: 100px;
+         
+         
+         
+         
+ 
+     }
+     #solucion1{
+         border-style: solid;
+         border-color: blue;
+         border-radius: 10px;
+         align-items: center;
+         margin-left: 100px;
+         border-width: 7px;
+         background-color: white;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         
+     }
+
+ #imagen1{
+     width: 95%;
+     height: 50%;
+     
+      
+ }
+ 
+ #imagen2{
+     width: 95%;
+     height: 50%;
+    
+    
+ }
+ 
+ #imagen3{
+     width: 95%;
+     height: 50%;
+     
+     
+ }
+ #imagen4{
+     width: 45%;
+     height: 100%;
+     
+     
+ }
+ #imagen5{
+     width: 95%;
+     height: 50%;
+     
+     
+ }
+ #imagen6{
+     width: 95%;
+     height: 50%;
+     
+     
+ }
+ #imagen7{
+     width: 95%;
+     height: 50%;
+     
+     
+     
+ }
+ #imagen8{
+     width: 95%;
+     height: 50%;
+     margin-left: 5px;
+     
+ }
+
+ img{
+    width: 95%;
+    height: 50%;
+    margin-left: 5px;
+   
+}
+ 
+ 
+ 
+ #targeta2{
+    
+     border-color: rgb(255, 238, 0);
+     border-style: solid;
+     border-radius: 10px; 
+     align-items: center;
+     border-width: 7px;
+     background-color: white;
+     margin-left: 100px;
+     gap: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+     
+ }
+ #solucion2{
+ 
+ border-style: solid;
+ border-color: rgb(255, 238, 0);
+ border-radius: 10px;
+ align-items: center;
+ margin-left: 100px;
+ border-width: 7px;
+ background-color: white;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+ }
+ 
+ #targeta3{
+
+ border-color: rgb(140, 0, 255);
+ border-style: solid;
+ border-radius: 10px; 
+ align-items: center;
+ border-width: 7px;
+ background-color: white;
+ margin-left: 100px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ 
+ #solucion3{
+
+ border-style: solid;
+ border-color: rgb(140, 0, 255);
+ border-radius: 10px;
+ align-items: center;
+ margin-left: 100px;
+ border-width: 7px;
+ background-color: white;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ 
+ #targeta4{
+
+ border-color: rgb(255, 0, 0);
+ border-style:solid;
+ border-radius: 10px; 
+ border-width: 7px;
+ align-items: center;
+ background-color: white;
+ margin-left: 100px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+ 
+ }
+ 
+ #solucion4{
+
+ border-style: solid;
+ border-color: rgb(255, 0, 0);
+ border-radius: 10px;
+ align-items: center;
+ margin-left: 100px;
+ border-width: 7px;
+ background-color: white;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+ }
+ 
+ 
+ #body{
+    background-color:blanchedalmond;
+    
+ }
+ }
