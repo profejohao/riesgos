@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #0e171f;
+    color: white;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card-section{
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.card{
+    background-color: rgb(0, 112, 122);
+    padding: 1.75rem;
+    border-radius: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .card-header{
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.card .card-body{
+    flex-basis: 100%;
+    margin-top: 1.2rem;
+}
+
+.card .card-body p{
+    margin: 0;
+}
+
+.card .card-body a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem 1.75rem;
+    border: 1px solid transparent;
+    background-color: black;
+    border-radius: 1.75rem;
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease-in, color 0.4s ease-in;
+}
+
+.card .card-body a:hover{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+.card .card-footer{
+    flex-basis: 100%;
+    align-self: flex-end;
+    text-align: end;
+    font-size: 0.8rem;
+}
+
+@media(max-widt: 768px){
+    .card-section{
+        display: block;
+        border: none;
+        width: 648px;
+    }
+
+    .card-header{
+        padding: 20px 20px 5px 20px;
+        border: none;
+    }
+
+    .card-body{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+}
+#img1{
+    background-image: url('../Imagenes/RIESGO1.JPG');
+}
+#img2{
+    background-image: url('../Imagenes/RIESGO2.JPG');
+}
+#img3{
+    background-image: url('../Imagenes/RIESGO3.JPG');
+}
+#img4{
+    background-image: url('../Imagenes/RIESGO4.JPG');
+}
+#img5{
+    background-image: url('../Imagenes/RIESGO1.JPG');
+}
+#img6{
+    background-image: url('../Imagenes/RIESGO2.JPG');
+}
+#img7{
+    background-image: url('../Imagenes/RIESGO3.JPG');
+}
+#img8{
+    background-image: url('../Imagenes/RIESGO4.JPG');
+}

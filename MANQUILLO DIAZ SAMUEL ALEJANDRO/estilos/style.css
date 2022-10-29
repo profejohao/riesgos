@@ -1,0 +1,49 @@
+body{
+    background-color: chartreuse;
+}
+#p{
+    width: 300px;
+    background-color:lightskyblue;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: blue;
+}
+#p2{
+    background-color: lightgreen;
+    text-align: center;
+}
+#p3{
+    width: 300px;
+}
+#p6{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+#titulo1{
+    text-align: center;
+    background-color: gold;
+    font-size: 50px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color:blue;
+}
+#nombre{
+    background-color:red;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: black;
+    text-align: center;
+}
+@media (min-width:900px){
+    #ebanis{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 30px;
+        justify-content: center;
+    }
+}

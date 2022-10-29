@@ -1,0 +1,223 @@
+h1{
+    text-align: center;
+}
+.A2{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+body{
+    background-color: blanchedalmond;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+#cont{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#gran{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+    align-items: center;
+}
+#nu1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto ;
+    gap: 40px;
+}
+#nu2{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
+    gap: 40px;
+}
+#t1{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t2{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t3{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t4{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t5{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t6{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t7{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+#t8{
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+}
+@media(min-width:800px){
+    .A2{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 10PX;
+        margin-right: 10px;
+    }
+    #cont{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #gran{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    #nu1{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+    }
+    #nu2{
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+    }
+    #t1{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t2{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t3{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t4{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t5{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t6{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t7{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t8{
+        border-style: solid;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+}
+@media(max-width:799px) and (min-width:425px){
+    .A2{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    #cont{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #gran{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    #nu1{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 40px;
+    }
+    #nu2{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 40px;
+    }
+}

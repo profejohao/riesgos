@@ -1,0 +1,100 @@
+body{
+    margin: 15px;
+}
+@media(min-width: 993px){
+#par2{
+    font-size: 12px;
+}
+#contenedor2, img{
+    width: 300px;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: auto auto auto auto ;
+    gap: 100px;
+}
+#Aud{
+    background-color: rgb(9, 226, 255);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+#Cas{
+    background-color: rgb(9, 226, 255);
+    padding-bottom: 150px;
+    border-radius: 10px;
+}
+#Erg{
+    background-color: rgb(50, 255, 9);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+#Len{
+    background-color: rgb(50, 255, 9);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+#Mec{
+    background-color: rgb(128, 70, 236);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+#Ten{
+    background-color: rgb(128, 70, 236);
+    padding-bottom: 150px;
+    border-radius: 10px;
+}
+#Qui{
+    background-color: rgb(236, 70, 112);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+#Med{
+    background-color: rgb(236, 70, 112);
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+}
+@media(max-width: 768px){
+    #contenedor2{
+        width: 80%;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        justify-content: center;
+        margin: 5px auto;
+        gap: 20px;
+    }
+    #Contenedor2,img{
+        width: 100%;
+    }
+    #Aud{
+        background-color: rgb(9, 226, 255);
+        border-radius: 10px;
+    }
+    #Cas{
+        background-color: rgb(9, 226, 255);
+        border-radius: 10px;
+    }
+    #Erg{
+        background-color: rgb(50, 255, 9);
+        border-radius: 10px;
+    }
+    #Len{
+        background-color: rgb(50, 255, 9);
+        border-radius: 10px;
+    }
+    #Mec{
+        background-color: rgb(128, 70, 236);
+        border-radius: 10px;
+    }
+    #Ten{
+        background-color: rgb(128, 70, 236);
+        border-radius: 10px;
+    }
+    #Qui{
+        background-color: rgb(236, 70, 112);
+        border-radius: 10px;
+    }
+    #Med{
+        background-color: rgb(236, 70, 112);
+        border-radius: 10px;
+    }
+}

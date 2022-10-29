@@ -1,0 +1,337 @@
+h1{
+    text-align: center;
+    color: rgb(250, 164, 3);
+    background-color: brown;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: cursive;
+    box-shadow:  10px 5px 5px black;
+   
+}
+h3{
+    color: rgb(250, 164, 3);
+    font-family: cursive;
+    box-shadow:  10px 5px 5px black;
+    width: 320px;
+    margin-left: 10px;
+    border-radius: 10px;
+ 
+   
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    box-shadow:  10px 5px 5px black;
+    width: 320px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(209, 162, 162);
+}
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 50% 50%;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    color: papayawhip;
+    margin-right: 100px;
+    margin-left: 100px;
+   font-family: cursive;
+   margin-bottom: 59px;
+   
+
+    
+
+
+
+}
+.cl1{
+   
+    background-color:brown;
+   
+  
+   
+}
+.cl2{
+  
+    background-color:brown;
+    
+   
+   
+   
+}
+.cl3{
+    background-color:brown;
+    
+  
+   
+}
+.cl4{
+  
+    background-color:brown;
+   
+   
+   
+}
+.cl5{
+    background-color:brown;
+   
+}
+.cl6{
+  
+    background-color:brown;
+   
+   
+}
+.cl7{
+    background-color:brown;
+    
+  
+   
+}
+.cl8{
+  
+    background-color:brown;
+   
+   
+}
+#div1{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    box-shadow:  10px 5px 5px black;
+    
+  
+}
+#div2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row:1/2 ;
+    box-shadow:  10px 5px 5px black;
+   
+   
+
+}
+#div3{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    box-shadow:  10px 5px 5px black;
+   
+  
+}
+#div4{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    box-shadow:  10px 5px 5px black;
+   
+   
+}
+#div5{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    box-shadow:  10px 5px 5px black;
+  
+}
+#div6{
+    display: grid;
+    grid-column: 2/3;
+    grid-row:2/3 ;
+    box-shadow:  10px 5px 5px black;
+   
+
+}
+#div7{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    box-shadow:  10px 5px 5px black;
+   
+   
+  
+}
+#div8{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    box-shadow:  10px 5px 5px black;
+   
+   
+   
+   
+}
+.img{
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+    box-shadow:  10px 5px 5px black;
+
+}
+@media(max-width:600px){
+    h1{
+        text-align: center;
+    color: rgb(250, 164, 3);
+    background-color: brown;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: cursive;
+    font-size: 20px;
+   
+    }
+    body{
+        background-color:  rgb(209, 162, 162);
+    }
+    h3{
+        color: rgb(250, 164, 3);
+        font-family: cursive;
+        box-shadow:  10px 5px 5px black;
+        width: 320px;
+        margin-left: 115px;
+        border-radius: 10px;
+     
+       
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        box-shadow:  10px 5px 5px black;
+        width: 320px;
+        margin-left: 115px;
+        border-radius: 10px;
+    }
+    #contenedor{
+        display: flex;
+       flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        justify-content: center;
+        color: papayawhip;
+        margin-right: 20px;
+        margin-left: 20px;
+       font-family: cursive;
+       }
+    .img{
+        width: 320px;
+        border-radius: 10px;
+        margin-top: 30px;
+    
+    }
+    .cl1{
+       
+        background-color:brown;
+       
+      
+       
+    }
+    .cl2{
+      
+        background-color:brown;
+       
+       
+       
+    }
+    .cl3{
+        background-color:brown;
+        
+      
+       
+    }
+    .cl4{
+      
+        background-color:brown;
+       
+       
+       
+    }
+    .cl5{
+        background-color:brown;
+       
+    }
+    .cl6{
+      
+        background-color:brown;
+       
+       
+    }
+    .cl7{
+        background-color:brown;
+        
+      
+       
+    }
+    .cl8{
+      
+        background-color:brown;
+       
+       
+    }
+    #div1{
+      
+        box-shadow:  10px 5px 5px black;
+   
+      
+    }
+    #div2{
+      
+        box-shadow:  10px 5px 5px black;
+   
+       
+       
+    
+    }
+    #div3{
+       
+        box-shadow:  10px 5px 5px black;
+   
+       
+      
+    }
+    #div4{
+    
+        box-shadow:  10px 5px 5px black;
+   
+       
+       
+    }
+    #div5{
+   
+        box-shadow:  10px 5px 5px black;
+   
+      
+    }
+    #div6{
+       
+        box-shadow:  10px 5px 5px black;
+   
+       
+    
+    }
+    #div7{
+      
+      
+        box-shadow:  10px 5px 5px black;
+   
+      
+    }
+    #div8{
+   
+        box-shadow:  10px 5px 5px black;
+   
+       
+       
+       
+    }
+}
