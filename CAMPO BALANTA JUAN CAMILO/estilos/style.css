@@ -1,0 +1,122 @@
+h1{
+    text-align: center;
+}
+@media (min-width: 800px){
+    #cont{
+        display: flex;
+        flex-direction: column;
+    }
+    #mcont{
+        display: flex;
+        flex-direction: column;
+    }
+    .g1{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+    .g2{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        width: 50%;
+        height: 600px;
+        margin-bottom: 20px;
+        box-shadow: black 5px 5px 5px;
+    }
+    #tatay1{
+        background-color: salmon;
+    }
+    #tatay2{
+        background-color: skyblue;
+    }
+    #tatay3{
+        background-color: springgreen;
+    }
+    #tatay4{
+        background-color: thistle;
+    }
+    h1{
+        font-style: oblique;
+        background-color: lawngreen;
+        border-radius: 20px;
+    }
+    h2{
+        font-family:sans-serif;
+        color: red;
+        filter: drop-shadow(2px 2px 2px);
+    }
+    p{
+        font-family: Impact;
+    }
+    .im{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+img{
+    height: 300px;
+    width: 100%;
+    border-radius: 60px;
+}
+
+@media (max-width: 649px){
+    .im{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #cont{
+        display: flex;
+        flex-direction: column;
+    }
+    #mcont{
+        display: flex;
+        flex-direction: column;
+    }
+    .g1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+    h1{
+        font-style: oblique;
+        background-color: lawngreen;
+        border-radius: 20px;
+    }
+    h2{
+        font-family:sans-serif;
+        color: red;
+        filter: drop-shadow(2px 2px 2px);
+    }
+    #tatay1{
+        background-color: salmon;
+    }
+    #tatay2{
+        background-color: skyblue;
+    }
+    #tatay3{
+        background-color: springgreen;
+    }
+    #tatay4{
+        background-color: thistle;
+    }
+    p{
+        font-family: Impact;
+    }
+    .g2{
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-right: 15px;
+        border-radius: 15px;
+        width: 93%;
+        height:500px;
+        margin-bottom: 15px;
+        margin-right: 10px;
+        box-shadow: black 5px 5px 5px;
+    }
+}
